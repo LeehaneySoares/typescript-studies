@@ -23,6 +23,7 @@ const programadora: Array<boolean> = [true, false, true, true, false]
  * Type any
  */
 
-const array: Array<string> = ['Leehaney', 'Soares', 'Ferreira']
+// const array: Array<string> = ['Leehaney', 'Soares', 'Ferreira']
 
+const array: any = ['Leehaney', 'Soares', 'Ferreira']
 array.push(2)
