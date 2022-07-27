@@ -4,9 +4,9 @@
  * @returns 
  */
 
-function firstLetterUppercase (name: string) {
+function firstLetterUppercase (name: string): string {
   let firstLetter: string = name.charAt(0).toUpperCase()
   return `${firstLetter}${name.substring(1)}`
 }
 
-firstLetterUppercase('Leehaney')
+const nome = (name: string) => name.charAt(0).toUpperCase + name.substring(1)
