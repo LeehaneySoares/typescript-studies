@@ -9,4 +9,7 @@ function firstLetterUppercase (name: string): string {
   return `${firstLetter}${name.substring(1)}`
 }
 
-const nome = (name: string) => name.charAt(0).toUpperCase + name.substring(1)
+/**
+ * Não vejo necessidades de tipar o retorno de uma arrow function
+ */
+const nome: Function = (name: string): string => name.charAt(0).toUpperCase + name.substring(1)
