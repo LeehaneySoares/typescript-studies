@@ -20,4 +20,4 @@ const pessoa = {
     filhos: ['Livia, joaquim', 'cleiton', 'michele']
 	}
 
-const p1 = criaPessoa(pessoa)
+const p1: string = criaPessoa(pessoa)
