@@ -4,10 +4,10 @@ function usuario (pessoa: { nome: string, sobrenome: string, idade?: number }): 
     : `${pessoa.nome} ${pessoa.sobrenome}, tudo bem ?`
 }
 
-const pessoa = {
-  nome: 'Leehaney',
-  sobrenome: 'Soares',
-  idade: 25 // É uma propriedade opcional
-}
+// const pessoa = {
+//   nome: 'Leehaney',
+//   sobrenome: 'Soares',
+//   idade: 25 // É uma propriedade opcional
+// }
 
 usuario(pessoa)
