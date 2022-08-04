@@ -7,8 +7,24 @@
 function removerElemento (el: HTMLElement): void {
   //.....Código omitido....//
   el.remove()
+  // return el // Aqui está errado, não deve ter return
 }
 
 const elemento = document.querySelector('.teste') as HTMLElement
 
 removerElemento(elemento)
+
+//--------------------------------------------------------------------------//
+
+// function ligarProduto (): void {
+//   ligado = true
+// }
+
+// let ligado = false
+// console.log(ligado)
+
+// ligarProduto()
+// console.log(ligado)
+
+//-------------------------------------------------------------------------//
+
