@@ -27,3 +27,12 @@ function soma (n1: number, n2: number): number {
 function sub (n1: number, n2: number, n3: number): number {
   return n1 - n2
 }
+
+/**
+ * noImplicitReturns: Esse é bem util, quando ativado emitirá um aviso quando termos retornos
+ * implícitos, ou seja, quando uma função retorna algo ou não (Exemplo abaixo):
+ */
+
+function falando (text: string) { // Para ajustar isso podemos apenas dar um return sem nada
+  if (text) return text
+}
